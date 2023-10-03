@@ -11,3 +11,8 @@ In order to run the application with docker:
 ```
 curl --location 'http://localhost:8080/api/analyzes?url=https%3A%2F%2Fdemo.castlabs.com%2Ftmp%2Ftext0.mp4'
 ```
+
+## Notes and Improvements
+- To make the endpoint better I could create a global excepton handler with @ControllerAdvice and give to the user a better error response.
+- For the client to make the http request could also be an interface so as future implementation can use another one.
+- Make possible to extract all root boxes instead only the first one.

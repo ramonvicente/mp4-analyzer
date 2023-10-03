@@ -15,6 +15,5 @@ public class BoxDto {
   // First I though in BoxType be a enum however I believe there are many other types of box in a MP4 file.
   private String boxType;
   private int boxSize;
-  private byte[] test;
   private List<BoxDto> subBoxes;
 }
